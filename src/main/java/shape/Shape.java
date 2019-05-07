@@ -1,6 +1,7 @@
 package shape;
 
 
+import listenner.Colorable;
 import listenner.Resizeable;
 
 public class Shape implements Resizeable {
@@ -43,4 +44,5 @@ public class Shape implements Resizeable {
     public void resize(double percent) {
 
     }
+
 }
